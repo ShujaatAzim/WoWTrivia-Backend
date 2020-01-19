@@ -1,7 +1,16 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+question1 = Question.create(text: "What is the name of the Horde's Warchief in Classic", answer: "Thrall", difficulty: "Easy")
+question2 = Question.create(text: "Who is Onyxia disguised as in Stormwind?", answer: "Lady Katrana Prestor", difficulty: "Medium")
+question3 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Hard")
+
+category1 = Category.create(name: "Classic")
+category2 = Category.create(name: "Burning Crusade")
+category3 = Category.create(name: "Horde")
+category4 = Category.create(name: "Alliance")
+category5 = Category.create(name: "Lore")
+
+question_category1 = QuestionCategory.create(question_id: 1, category_id: 1)
+question_category2 = QuestionCategory.create(question_id: 1, category_id: 3)
+question_category3 = QuestionCategory.create(question_id: 2, category_id: 4)
+question_category4 = QuestionCategory.create(question_id: 2, category_id: 5)
+question_category5 = QuestionCategory.create(question_id: 3, category_id: 2)
+question_category6 = QuestionCategory.create(question_id: 3, category_id: 5)

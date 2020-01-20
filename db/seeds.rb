@@ -1,4 +1,4 @@
-question1 = Question.create(text: "What is the name of the Horde's Warchief in Classic", answer: "Thrall", difficulty: "Easy")
+question1 = Question.create(text: "What is the name of the Horde's Warchief in Classic?", answer: "Thrall", difficulty: "Easy")
 question2 = Question.create(text: "Who is Onyxia disguised as in Stormwind?", answer: "Lady Katrana Prestor", difficulty: "Medium")
 question3 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Hard")
 

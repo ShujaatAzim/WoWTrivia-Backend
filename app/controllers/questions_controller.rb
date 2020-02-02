@@ -10,4 +10,8 @@ class QuestionsController < ApplicationController
     render json: QuestionSerializer.new(@question).to_serialized_json
   end
 
+  def create
+    @question = Question.create(text: params[:text], answer: params[:answer], difficulty: params[:difficulty])
+  end
+
 end

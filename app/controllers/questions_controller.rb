@@ -12,8 +12,7 @@ class QuestionsController < ApplicationController
 
   def create
     @question = Question.create(text: params[:text], answer: params[:answer], difficulty: params[:difficulty])
-    params[:categories].each { |category| @question.categories << Category.find_by(name: category) }
-    @question.categories = @question.categories.uniq
+    params[:categories].each { |category| @question.categories << Category.find_or_create_by(name: category[:name]) }
     @question.save 
     render json: QuestionSerializer.new(@question).to_serialized_json
   end

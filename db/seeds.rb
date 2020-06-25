@@ -1,6 +1,12 @@
 question1 = Question.create(text: "What is the name of the Horde's Warchief in Classic?", answer: "Thrall", difficulty: "Easy")
 question2 = Question.create(text: "Who is Onyxia disguised as in Stormwind?", answer: "Lady Katrana Prestor", difficulty: "Medium")
 question3 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Hard")
+question4 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Easy")
+question5 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Medium")
+question6 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Hard")
+question7 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Easy")
+question8 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Medium")
+question9 = Question.create(text: "Who is the mother of Medivh, the wizard who opened the Dark Portal?", answer: "Aegwynn", difficulty: "Hard")
 
 category1 = Category.create(name: "Classic")
 category2 = Category.create(name: "Burning Crusade")

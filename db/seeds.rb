@@ -13,6 +13,7 @@ category2 = Category.create(name: "Burning Crusade")
 category3 = Category.create(name: "Horde")
 category4 = Category.create(name: "Alliance")
 category5 = Category.create(name: "Lore")
+category6 = Category.create(name: "Characters")
 
 question_category1 = QuestionCategory.create(question_id: 1, category_id: 1)
 question_category2 = QuestionCategory.create(question_id: 1, category_id: 3)
